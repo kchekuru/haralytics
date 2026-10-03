@@ -34,9 +34,10 @@ Training: selected blocks and historical flights.
 Evaluation: different blocks from the same farm, unseen blocks, a later flight, and some neighboring acreage.
 Including neighboring farm acreage is useful for reducing overfitting to one farm, camera setup, soil color, or crop variety. Keep some neighboring fields completely held out for evaluation rather than mixing all of them into training.
 
-                    Hara Labs Frontier Fine Tunning Services 
-No 
-                    Custom Model Implementation Services
+                    Hara Labs Frontier Fine Tunning Services
+
+No
+Custom Model Implementation Services
 Model: YOLO segmentation if damage regions are visible; otherwise detection.
 Inference: SAHI-style tiled inference at the native resolution.
 Aggregation: region/field-block summaries, not raw frame counts.
